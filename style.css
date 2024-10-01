@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #ffffff;
+}
+
+body.dark-mode #main-header {
+    background-color: #000000;
+}
+
+body.dark-mode .cta-btn {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
